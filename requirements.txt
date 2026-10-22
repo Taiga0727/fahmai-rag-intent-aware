@@ -1,0 +1,8 @@
+# Libraries imported by notebooks/fahmai_rag_v5.ipynb (written for Google Colab, which already ships most of them)
+sentence-transformers
+rank-bm25
+requests
+numpy
+pythainlp
+matplotlib
+pillow

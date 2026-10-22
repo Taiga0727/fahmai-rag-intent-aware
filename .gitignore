@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# competition data and caches built from it stay local (see data/README.md)
+data/*
+!data/README.md
+cache_v3/
+*.npy
+*.pkl
