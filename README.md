@@ -89,4 +89,5 @@ docs/leaderboard_submissions.png       score screenshot
 ## Notes
 
 - The competition data and the organizers' documents (brief, slides, starter kit) are not included. The notebook outputs were trimmed so that the per-question run log no longer quotes the questions; a few example queries used to test the intent classifier remain.
+- The helper functions `ask_llm`, `bm25_retrieve`, `dense_retrieve` and `parse_answer` started from the organizers' starter kit and were changed to different degrees; the other 15 functions (intent classifier, query decomposition, forced retrieval, prompts, run loop, debug helpers) have no counterpart among the starter kit's function definitions. The MIT licence below covers my changes; the starter kit's own terms apply to what it contributed.
 - Research and competition code, not a packaged library. License: [MIT](LICENSE) for the code and write-up; the competition data and the organizers' documents are not part of it.
